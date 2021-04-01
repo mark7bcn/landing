@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(2, 2, 2);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .iconomenu {
+            width: 24px;
+        }
+        .menusuperior {
+            background-color: #1e2722;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px;
+        }
+        .enlacemenu {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        a:hover {
+           transform: scale(1.1);
+        }
+        
+        .seccion2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            font-size:large;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+        }
+        .seccion3{
+            display: flex;
+                justify-content: space-between;
+            padding: 25px;
+                background-color: #C1C1C1;
+        }
+        .seccion1{
+            display: flex;
+            justify-content:space-around;
+            background-color: #003824;;
+        }
+        h1{
+            margin:auto; 
+            font-size: 30px; 
+            width: 50%; 
+            padding: 20px;
+            font-weight: lighter;
+        }
+        
+        footer{
+        position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color:black;
+           color: white;
+           text-align: center;
+        }
+        
+        </style>
+</head>
+<body>
+    <div class="menusuperior" id="myHeader">  
+        <img class="iconomenu" src="imagenbarra1.png">
+        <a class="enlacemenu" href="">Inicio</a>
+        <a class="enlacemenu" href="">Imagenes</a>
+        <a class="enlacemenu" href="">Concurso</a>
+        <a class="enlacemenu" href="">Blog</a>
+        <a class="enlacemenu" href="">Contacto</a>
+    </div>
+    
+    <div style="display:flex;justify-content: center;"><img src="aquascapingbarra1.png"></div>
+    
+    <div class="seccion1">
+        <h1 style="color: white;">ESPACIO DEDICADO AL AQUASCAPING MUNDIAL </h1>
+        <img src="aquascaping3.jpg"style="width: 50%;">
+    </div>
+    <div class="seccion2"> 
+        <img src="iaplclogo.png" style="width: 50%; padding: 5px;">
+        <h1> CONCURSO INTERNACIONAL DE FOTOGRAFIA ACUATICA</h1> 
+    </div>
+    <div class="seccion3">
+        <img src="aquascaping4.jpeg"style="width: 45%">
+        <img src="aquascaping5.jpeg"style="width: 45%">
+    </div>
+    
+    <footer>All rights reserved - Marc Gonzalez Soriano</footer>
+</body>
+</html>
